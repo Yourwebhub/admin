@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  .slick-track{
+    display: flex !important;
+    gap: 25px !important;
+  }
+
+  .Btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #4ade80;
+    background: #4ade80;
+    background: #4ade80;
+    background: #4ade80;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    z-index: -1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+  }
+  
+  /* loader */
+  .hex-grid {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: perspective(1000px) rotateX(30deg);
+  }
+  
+  .hex {
+    position: relative;
+    width: 20px;
+    height: 23px;
+    margin: 1px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: #3b82f6;
+    opacity: 0;
+    animation: pulse 2s ease-in-out infinite;
+    /* #4affd4 */
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+  }
+
+  /* map */
+
+  .map-wrapper{
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .map-container{
+    height: 100%;
+    width: 100%;
+    z-index: 1; /* Ensure it's below higher priority elements */
+  }
+  
+  .overlay-element {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10; /* Above the map */
+  }
+  
+  /* scrollbar  */
+  ::-webkit-scrollbar {
+    width: 20px;
+    z-index: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    background-color: white;
+   
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3b82f6; 
+    animation: pulse 2s ease-in-out infinite;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #224d91; 
+  }
+  /* model  */
+  
+  .bottom-hire-ani{
+    animation: bottomhireanistart;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    left: 50%;
+    position: fixed;
+    z-index: 100;
+    transform: translate(-50%,-50%);
+  }
+  @keyframes bottomhireanistart {
+    from{
+      transform: translate(-50%,-50%);
+      top:-100%;
+    }
+    to{
+      transform: translate(-50%,-50%);
+      top: 50%;
+    }
+  }
+
+
+  .bottom-hire-more{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: bottomhiremore;
+    animation-delay: 0.6s;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    background-color: #3b83f649;
+  }
+  
+  @keyframes bottomhiremore {
+    from{
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+    to{
+      padding: 40px 80px;
+      box-shadow: 0px 0px 30px 2px #3b82f6;
+      width: 65%;
+     
+      backdrop-filter: blur(20px); 
+      height: 80vh;
+      border-radius: 10px;
+    }
+  }
+  .opacity-new-ani{
+    animation: opacitynewani;
+    animation-duration: 0.3s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    opacity:0;
+  }
+  
+  @keyframes opacitynewani {
+    from{
+      opacity:0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  
