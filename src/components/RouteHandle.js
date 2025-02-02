@@ -16,7 +16,7 @@ export default function RouteHandler({ children }) {
     }, 2000); // Adjust the delay as needed
 
     return () => clearTimeout(timeout); // Cleanup on unmount
-  }, [pathname.sala]);
+  }, [pathname]);
 
   return (
     <div>

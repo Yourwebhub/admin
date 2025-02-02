@@ -17,7 +17,7 @@ const Team = () => {
     {
       id: "1",
       designation: "Founder & CEO",
-      employe: "Azeem Qasim",
+      employe: "Roni Mitra",
       image: "/images/team/azeem.webp",
       category: "DT",
     },
