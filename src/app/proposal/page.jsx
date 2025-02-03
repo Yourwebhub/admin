@@ -11,7 +11,7 @@ const Page = () => {
         name="description"
         content="Your Web Hub is a leading IT solutions company specializing in web development, cloud services, and custom software to grow your business."
       />
-      <link rel="canonical" href="https://www.yourwebsite.com/contact" />
+      <link rel="canonical" href="https://www.yourwebhub.store/perposal" />
 
       <motion.h1 initial={{ opacity: 0, y: 40 }}
              whileInView={{ opacity: 1, y: 0 }}

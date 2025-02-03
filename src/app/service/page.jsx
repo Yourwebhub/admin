@@ -10,7 +10,7 @@ const Page = () => {
         name="description"
         content="Your Web Hub is a leading IT solutions company specializing in web development, cloud services, and custom software to grow your business."
       />
-      <link rel="canonical" href="http://localhost:3000/service" />
+      <link rel="canonical" href="https://www.yourwebhub.store/service" />
 <SwiperComponent/>
     </>
   )

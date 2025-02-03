@@ -9,7 +9,7 @@ const Page = () => {
         name="description"
         content="Your Web Hub is a leading IT solutions company specializing in web development, cloud services, and custom software to grow your business."
       />
-      <link rel="canonical" href="https://www.yourwebsite.com/projects" />
+      <link rel="canonical" href="https://www.yourwebhub.store/projects" />
 
       <Projects/>
       
