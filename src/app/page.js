@@ -10,6 +10,7 @@ const Page = () => {
     <>
   <title>Your Web Hub | All Your Digital Solutions</title>
 <meta name="description" content="Your Web Hub is a leading IT solutions company, specializing in web development, cloud services, and custom software." />
+<link rel="canonical" href="https://www.yourwebhub.store/" />
 {/* <TransitionEffect/> */}
       <Header/>
       <Mission/>
