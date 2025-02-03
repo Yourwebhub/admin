@@ -16,12 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Your Web Hub | All Your Digital Solutions",
-  description: "Your Web Hub is a leading IT solutions company, specializing in web development, cloud services, and custom software.",
-  alternates: {
-    canonical: "https://www.yourwebsite.store",
-  },
+  description:"Your Web Hub is a leading IT solutions company, specializing in web development, cloud services, and custom software."
 };
-
 
 export default function RootLayout({ children }) {
   return (
