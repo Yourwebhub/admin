@@ -1,0 +1,11 @@
+# robots.txt for https://www.yourwebhub.store/
+
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow all other pages
+Allow: /
+
+Sitemap: https://www.yourwebhub.store/sitemap.xml
