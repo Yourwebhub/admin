@@ -3,7 +3,6 @@
 User-agent: *
 Disallow: /api/
 Disallow: /_next/
-Disallow: /static/
 
 # Allow all other pages
 Allow: /
