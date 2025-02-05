@@ -2,7 +2,7 @@
 
 User-agent: *
 Disallow: /api/
-Disallow: /_next/
+
 
 # Allow all other pages
 Allow: /
