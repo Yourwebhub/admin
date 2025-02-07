@@ -32,25 +32,28 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <Link 
-                href="#" 
+              target="_blank" 
+                href="https://www.facebook.com/share/1A1VpbLS96/" 
                 className="bg-bllue dark:bg-blue-700 p-2 rounded-full hover:bg-blue-700 dark:hover:bg-bllue transition-colors"
               >
                 <Facebook className="w-5 h-5 text-light" />
               </Link>
               <Link 
+              target="_blank" 
                 href="#" 
                 className="bg-gradient-to-r from-pink-500 to-purple-500 p-2 rounded-full hover:opacity-90 transition-opacity"
               >
                 <Instagram className="w-5 h-5 text-light" />
               </Link>
-              <Link 
-                href="#" 
+              <Link
+              target="_blank" 
+                href="https://www.linkedin.com/company/your-web-hub" 
                 className="bg-bllue dark:bg-blue-700 p-2 rounded-full hover:bg-blue-700 dark:hover:bg-bllue transition-colors"
               >
                 <Linkedin className="w-5 h-5 text-light" />
               </Link>
-              <Link 
-                href="#" 
+              <Link
+                href="mailto:mitraroni15@gmail.com" 
                 className="bg-blue-400 dark:bg-blue-500 p-2 rounded-full hover:bg-blue-500 dark:hover:bg-blue-400 transition-colors"
               >
                 <Send className="w-5 h-5 text-light" />
@@ -65,15 +68,15 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                "Web Development",
-                "App Development",
-                "SEO",
-                "Wordpress development",
-                "Social Media Marketing",
-              ].map((service) => (
+                {service:"Web Development",url:"/service/web"},
+                {service:"App Development",url:"/service/web"},
+                {service:"SEO",url:"/service/web"},
+                {service:"Wordpress",url:"/service/web"},
+                {service:"Social Media Marketing",url:"/service/web"},
+              ].map(({service,url}) => (
                 <li key={service}>
                   <Link 
-                    href="/service" 
+                    href={url}
                     className="text-gray-600 dark:text-gray-400 hover:text-bllue dark:hover:text-blue-400 transition-colors"
                   >
                     {service}
@@ -115,22 +118,23 @@ export default function Footer() {
               Freelancing Platforms
             </h4>
             <ul className="space-y-3">
-              {[
-                "Upwork",
-                "LinkedIn",
-                "Fiverr",
-                "Freelancer",
-              ].map((platform) => (
-                <li key={platform}>
-                  <Link 
-                    href="#" 
-                    className="text-gray-600 dark:text-gray-400 hover:text-bllue dark:hover:text-blue-400 transition-colors"
-                  >
-                    {platform}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+  {[
+    { platform: "Upwork", url: "https://www.upwork.com" },
+    { platform: "LinkedIn", url: "https://www.linkedin.com/company/your-web-hub" },
+    { platform: "Fiverr", url: "https://www.fiverr.com" },
+    { platform: "Freelancer", url: "https://www.freelancer.com" },
+  ].map(({ platform, url }) => (
+    <li key={platform}>
+      <Link 
+        href={url} 
+        className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+      >
+        {platform}
+      </Link>
+    </li>
+  ))}
+</ul>
+
           </div>
         </div>
 

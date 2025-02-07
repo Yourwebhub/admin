@@ -18,26 +18,31 @@ const services = [
     title: "Web Development",
     description: "your Web Hub specializes in creating dynamic, responsive websites that capture your brand’s essence and enhance user engagement. Our expert team ensures each site is optimized for performance, security, and scalability, empowering your business to succeed online",
     image: "https://jaidooempire.com/images/web.png",
+    link:"/service/wordpress"
   },
   {
     title: "App Development",
     description: "your Web Hub creates custom mobile and web applications that are designed to drive user engagement and business growth. Our expert team builds high-performance, scalable apps with a focus on security and seamless functionality. We deliver innovative solutions that transform your ideas into intuitive, user-friendly apps.",
     image: "https://jaidooempire.com/images/app.png",
+    link:"/service/wordpress"
   },
   {
     title: "SEO",
     description: "your Web Hub offers expert SEO services to boost your website’s visibility and drive organic traffic. Our strategies focus on improving search rankings and increasing conversions for sustainable business growth.",
     image: "https://jaidooempire.com/images/seo.png",
+    link:"/service/wordpress"
   },
   {
     title: "WordPress",
     description: "your Web Hub specialize in creating custom, high-performing WordPress websites designed for speed, security, and seamless user experiences. Our visually stunning and functional sites help elevate your online presence and drive engagement.",
     image: "/wordpress.png",
+    link:"/service/wordpress"
   },
   {
     title: "Social Media Marketing",
     description: "your Web Hub  provides strategic social media marketing services to enhance your online presence and engage your target audience. Our team creates tailored campaigns across platforms to boost brand awareness, drive traffic, and increase conversions.",
     image: "https://jaidooempire.com/images/smm.png",
+    link:"/service/wordpress"
   },
 ];
 

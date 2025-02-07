@@ -29,7 +29,7 @@ const services = [
     description:
       "Custom Wordpress , Stores Designed for Maximum eCommerce Success",
     number: 4,
-    link:"/service/app-development"
+    link:"/service/wordpress"
   },
   {
     title: "Social Media Marketing",

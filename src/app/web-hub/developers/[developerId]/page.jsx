@@ -220,11 +220,12 @@ const DeveloperUpdateForm = ({ params }) => {
               onChange={handleChange}
               className="border p-2 w-full rounded-md"
             >
-              <option value="WD">Web Developer (WD)</option>
-              <option value="MK">Marketing (MK)</option>
-              <option value="SE">SEO (SE)</option>
-              <option value="AP">App Developer (AP)</option>
-              <option value="WP">WordPress Developer (WP)</option>
+              <option value="WD">Web Developer </option>
+              <option value="MK">Marketing </option>
+              <option value="SE">SEO </option>
+              <option value="AP">App Developer </option>
+              <option value="WP">WordPress Developer </option>
+              <option value="DT">Director </option>
             </select>
           </div>
 

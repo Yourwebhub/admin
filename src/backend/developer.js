@@ -29,7 +29,7 @@ const developerSchema = new mongoose.Schema(
     },
     category: {
       type: String,
-      enum: [ "WD", "MK", "SE", "AP", "WP"],
+      enum: [ "WD", "MK", "SE", "AP", "WP","DT"],
       default: "WD",
     },
     portfolio: {

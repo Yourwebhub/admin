@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -305,9 +306,9 @@ const Page = () => {
               or a native Android app with Kotlin, we have the skills and
               experience to turn your vision into reality.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+            <Link href={"/proposal"} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors">
               Contact us today
-            </button>
+            </Link>
           </section>
         </div>
       </div>

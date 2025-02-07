@@ -160,6 +160,7 @@ const Developers = () => {
               <option value="SE">SEO</option>
               <option value="AP">App Developer</option>
               <option value="WP">Wordpress</option>
+              <option value="DT">Director</option>
             </select>
 
             {/* Add New Button */}
