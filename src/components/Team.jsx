@@ -17,15 +17,15 @@ const Team = () => {
     {
       id: "1",
       designation: "Founder & CEO",
-      employe: "Roni Mitra",
-      image: "/team/roni-bhi.jpg",
+      employe: "Surendar singh",
+      image: "/team/surinder.jpg",
       category: "DT",
     },
     {
       id: "2",
       designation: "Co-founder",
-      employe: "Surindar singh",
-      image: "/team/",
+      employe: "Roni Mitra",
+      image: "/team/roni-bhi.jpg",
       category: "DT",
     },
     // {
