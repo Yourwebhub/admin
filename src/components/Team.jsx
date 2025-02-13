@@ -77,6 +77,13 @@ const Team = () => {
       image: "/team/mubashir.png",
       category: "WD",
     },
+    {
+      id: "10",
+      designation: "App Developer",
+      employe: "Muhammad Suffian",
+      image: "/team/suffian.jpg",
+      category: "AP",
+    },
 
   ];
 
