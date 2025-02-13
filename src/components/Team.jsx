@@ -52,7 +52,7 @@ const Team = () => {
     {
       id: "6",
       designation: "Web developer",
-      employe: "Abishek Kumar",
+      employe: "Abhishek Kumar",
       image: "/team/",
       category: "WD",
     },
