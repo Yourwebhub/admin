@@ -72,9 +72,9 @@ const Team = () => {
     },
     {
       id: "9",
-      designation: "PHP developer",
-      employe: "Pollab joti das",
-      image: "/team/pollab.jpg",
+      designation: "Web developer",
+      employe: "Mubisher Ali",
+      image: "/team/mubashir.png",
       category: "WD",
     },
 

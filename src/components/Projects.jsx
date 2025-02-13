@@ -13,6 +13,8 @@ const projects = [
   { type: "React", title: "E-commerce project", img: "/projects/3.png", summary: "This is a brief description of Project Two.", link: "https://www.vedantcomputers.com/" },
   { type: "Wordpress", title: "Online Kirana Project", img: "/projects/4.png", summary: "This is a brief description of Project Two.", link: "https://onlinekirana.co.in/" },
   { type: "Wordpress", title: "Beauty project", img: "/projects/5.png", summary: "This is a brief description of Project Two.", link: "https://onlinekirana.co.in/" },
+  { type: "Wordpress", title: "Hotel project", img: "/projects/6.png", summary: "This is a brief description of Project Two.", link: "https://calmstays.in/" },
+  { type: "Wordpress", title: "car Rental", img: "/projects/7.png", summary: "This is a brief description of Project Two.", link: "https://modcar.travelerwp.com/" },
 ];
 
 const ITEMS_PER_PAGE = 12;
