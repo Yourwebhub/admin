@@ -43,17 +43,17 @@ const Team = () => {
       category: "AP",
     },
     {
-      id: "5",
-      designation: "Web developer",
-      employe: "Mudassar Ali",
-      image: "/team/mudassar.jpg",
-      category: "WD",
-    },
-    {
       id: "6",
       designation: "Web developer",
       employe: "Abhishek Kumar",
       image: "/team/abhi.jpg",
+      category: "WD",
+    },
+    {
+      id: "5",
+      designation: "Web developer",
+      employe: "Mudassar Ali",
+      image: "/team/mudassar.jpg",
       category: "WD",
     },
     {
