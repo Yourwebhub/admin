@@ -53,7 +53,7 @@ const Team = () => {
       id: "6",
       designation: "Web developer",
       employe: "Abhishek Kumar",
-      image: "/team/",
+      image: "/team/abhi.jpg",
       category: "WD",
     },
     {
