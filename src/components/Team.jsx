@@ -28,13 +28,13 @@ const Team = () => {
       image: "/team/roni-bhi.jpg",
       category: "DT",
     },
-    // {
-    //   id: "3",
-    //   designation: "HR",
-    //   employe: "Priti Sharma",
-    //   image: "/team/",
-    //   category: "DT",
-    // },
+    {
+      id: "3",
+      designation: "HR",
+      employe: "Anushka Srimali",
+      image: "/team/Anushka.jpg",
+      category: "DT",
+    },
     {
       id: "4",
       designation: "App Developer",
@@ -84,6 +84,13 @@ const Team = () => {
       image: "/team/suffian.jpg",
       category: "AP",
     },
+    // {
+    //   id: "10",
+    //   designation: "Business Associate",
+    //   employe: "Harshita Rana ",
+    //   image: "/team/harshita.jpg",
+    //   category: "MN",
+    // },
 
   ];
 
@@ -110,8 +117,8 @@ const Team = () => {
     },
     {
       id: "5",
-      buttonText: "Seo Experts",
-      value: "SE",
+      buttonText: "Management",
+      value: "MN",
     },
     {
       id: "5",
