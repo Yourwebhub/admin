@@ -17,17 +17,18 @@ const Team = () => {
     {
       id: "1",
       designation: "Founder & CEO",
-      employe: "Surendar singh",
-      image: "/team/surinder.jpg",
+      employe: "Roni Mitra",
+      image: "/team/roni-bhi.jpg",
       category: "DT",
     },
     {
       id: "2",
-      designation: "Sales Officer",
-      employe: "Roni Mitra",
-      image: "/team/roni-bhi.jpg",
-      category: "MT",
+      designation: "CO-Founder ",
+      employe: "Surendar singh",
+      image: "/team/surinder.jpg",
+      category: "DT",
     },
+
     {
       id: "3",
       designation: "HR",
@@ -173,12 +174,12 @@ const Team = () => {
         </div>
 
         <div className="pt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-10  transition-all py-5">
-          {filteredCards.map((v) => (
+          {filteredCards.map((v,i) => (
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -100, opacity: 0 }}
-              key={v.id}
+              key={i}
               className="animate-circle flex group flex-col justify-center items-center bg-[#3e5dea1f]  rounded-xl hover:custom-box-shadow"
             >
               <div className="h-[100px] w-[100px] bg-gray-200  overflow-hidden rounded-full group-hover:-translate-y-7 group-hover:scale-105  -translate-y-5 duration-200 border-4 border-gray-500">
