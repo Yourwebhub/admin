@@ -23,17 +23,17 @@ const Team = () => {
     },
     {
       id: "2",
-      designation: "Co-founder",
+      designation: "Sales Officer",
       employe: "Roni Mitra",
       image: "/team/roni-bhi.jpg",
-      category: "DT",
+      category: "MN",
     },
     {
       id: "3",
       designation: "HR",
       employe: "Anushka Srimali",
       image: "/team/Anushka.jpg",
-      category: "DT",
+      category: "MN",
     },
     {
       id: "4",
@@ -84,13 +84,13 @@ const Team = () => {
       image: "/team/suffian.jpg",
       category: "AP",
     },
-    // {
-    //   id: "10",
-    //   designation: "Business Associate",
-    //   employe: "Harshita Rana ",
-    //   image: "/team/harshita.jpg",
-    //   category: "MN",
-    // },
+    {
+      id: "10",
+      designation: "Business Associate",
+      employe: "Manasvi Gupta",
+      image: "/team/manasvi.jpg",
+      category: "MN",
+    },
 
   ];
 
@@ -120,16 +120,16 @@ const Team = () => {
       buttonText: "Management",
       value: "MN",
     },
-    {
-      id: "5",
-      buttonText: "Wordpress Experts",
-      value: "WP",
-    },
-    {
-      id: "5",
-      buttonText: "Digital Marketers",
-      value: "MK",
-    },
+    // {
+    //   id: "5",
+    //   buttonText: "Wordpress Experts",
+    //   value: "WP",
+    // },
+    // {
+    //   id: "5",
+    //   buttonText: "Digital Marketers",
+    //   value: "MK",
+    // },
   ];
 
   const filteredCards =
