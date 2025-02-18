@@ -16,7 +16,7 @@ const Team = () => {
   const data = [
     {
       id: "1",
-      designation: "Founder",
+      designation: "Establisher",
       employe: "Roni Mitra",
       image: "/team/roni-bhi.jpg",
       category: "DT",
