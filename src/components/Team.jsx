@@ -107,18 +107,18 @@ const Team = () => {
     },
     {
       id: "3",
+      buttonText: "Management",
+      value: "MN",
+    },
+    {
+      id: "4",
       buttonText: "Web Developers",
       value: "WD",
     },
     {
-      id: "4",
+      id: "5",
       buttonText: "App Developers",
       value: "AP",
-    },
-    {
-      id: "5",
-      buttonText: "Management",
-      value: "MN",
     },
     // {
     //   id: "5",
