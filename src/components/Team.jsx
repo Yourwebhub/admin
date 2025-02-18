@@ -85,7 +85,7 @@ const Team = () => {
       category: "AP",
     },
     {
-      id: "10",
+      id: "11",
       designation: "Business Associate",
       employe: "Manasvi Gupta",
       image: "/team/manasvi.jpg",
