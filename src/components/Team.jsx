@@ -26,7 +26,7 @@ const Team = () => {
       designation: "Sales Officer",
       employe: "Roni Mitra",
       image: "/team/roni-bhi.jpg",
-      category: "MN",
+      category: "MT",
     },
     {
       id: "3",
@@ -120,11 +120,11 @@ const Team = () => {
       buttonText: "App Developers",
       value: "AP",
     },
-    // {
-    //   id: "5",
-    //   buttonText: "Wordpress Experts",
-    //   value: "WP",
-    // },
+    {
+      id: "5",
+      buttonText: "Marketing",
+      value: "MT"
+    },
     // {
     //   id: "5",
     //   buttonText: "Digital Marketers",
