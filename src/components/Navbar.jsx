@@ -138,6 +138,7 @@ const Navbar = () => {
           <CustomLink href={"/"} title="Home" className="mr-4" />
           <CustomLink href={"/about"} title="About" className="mx-4" />
           <CustomLink href={"/service"} title="Services" className="mx-4" />
+          <CustomLink href={"/projects"} title="Projects" className="mx-4" />
           <CustomLink href={"/team"} title="Team" className="mx-4" />
           <CustomLink href={"/contact"} title="Contact" className="ml-4" />
         </nav>
@@ -193,6 +194,12 @@ const Navbar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
+              href={"/project"}
+              title="Projects"
+              className=""
+              toggle={handleClick}
+            />
+            <CustomMobileLink
               href={"/team"}
               title="Team"
               className=""
@@ -205,7 +212,7 @@ const Navbar = () => {
               toggle={handleClick}
             />
           </nav>
-          <nav className="flex items-center justify-center flex-wrap mt-2">
+          {/* <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
               href={"https://www.linkedin.com/in/mudassar-ali-787971235/"}
               target="_blank"
@@ -243,6 +250,14 @@ const Navbar = () => {
               <FiverrIcon />
             </motion.a>
 
+          </nav> */}
+        </motion.div>
+      ) : null}
+<div className="flex items-center justify-center lg:hidden">
+
+      <Link href={"/proposal"} className="cursor-pointer bg-bllue rounded-md text-white font-semibold transition duration-300 ease-in-out  hover:ring-2  hover:shadow-xl hover:shadow-bllue   px-5 py-2 lg:hidden">
+        Hire
+      </Link>
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 w-6 flex items-center justify-center rounded-full p-1 ${
@@ -256,19 +271,9 @@ const Navbar = () => {
                   <MoonIcon className="fill-dark" />
                 ))}
             </button>
-          </nav>
-        </motion.div>
-      ) : null}
+</div>
 
-      <Link href={"/proposal"} className="cursor-pointer bg-bllue rounded-md text-white font-semibold transition duration-300 ease-in-out  hover:ring-2  hover:shadow-xl hover:shadow-bllue   px-5 py-2 lg:hidden">
-        Hire
-      </Link>
-
-      {/* <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-        
-        <img src="/web-hub.png" className='w-20 md:w-40' alt="your web hub" />
-      </div> */}
-
+      
 {showForm && (
         <div className={`w-full h-auto hidden bottom-hire-ani justify-center items-center md:flex`}>
           <div className={`bottom-hire-more relative flex flex-col justify-center items-center`}>

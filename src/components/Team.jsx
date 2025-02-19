@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       id: "2",
-      designation: "CO-Founder ",
+      designation: "Founder & CEO ",
       employe: "Surendar singh",
       image: "/team/surinder.jpg",
       category: "DT",
@@ -38,6 +38,13 @@ const Team = () => {
     // },
     {
       id: "4",
+      designation: "Senior Manager",
+      employe: "Abhishek Kumar",
+      image: "/team/abhi.jpg",
+      category: "MN",
+    },
+    {
+      id: "5",
       designation: "App Developer",
       employe: "Deepak Kumaar",
       image: "/team/deepak.jpg",
@@ -45,13 +52,6 @@ const Team = () => {
     },
     {
       id: "6",
-      designation: "Web Developer",
-      employe: "Abhishek Kumar",
-      image: "/team/abhi.jpg",
-      category: "WD",
-    },
-    {
-      id: "5",
       designation: "Web Developer",
       employe: "Mudassar Ali",
       image: "/team/mudassar.jpg",
@@ -85,13 +85,13 @@ const Team = () => {
       image: "/team/suffian.jpg",
       category: "AP",
     },
-    // {
-    //   id: "11",
-    //   designation: "Business Associate",
-    //   employe: "Manasvi Gupta",
-    //   image: "/team/manasvi.jpg",
-    //   category: "MN",
-    // },
+    {
+      id: "11",
+      designation: "Web Developer",
+      employe: "Jamal Ali",
+      image: "/team/jamal.jpg",
+      category: "WD",
+    },
 
   ];
 
