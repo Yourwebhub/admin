@@ -29,13 +29,13 @@ const Team = () => {
       category: "DT",
     },
 
-    {
-      id: "3",
-      designation: "HR",
-      employe: "Anushka Srimali",
-      image: "/team/Anushka.jpg",
-      category: "DT",
-    },
+    // {
+    //   id: "3",
+    //   designation: "HR",
+    //   employe: "Anushka Srimali",
+    //   image: "/team/Anushka.jpg",
+    //   category: "DT",
+    // },
     {
       id: "4",
       designation: "App Developer",
@@ -85,13 +85,13 @@ const Team = () => {
       image: "/team/suffian.jpg",
       category: "AP",
     },
-    {
-      id: "11",
-      designation: "Business Associate",
-      employe: "Manasvi Gupta",
-      image: "/team/manasvi.jpg",
-      category: "MN",
-    },
+    // {
+    //   id: "11",
+    //   designation: "Business Associate",
+    //   employe: "Manasvi Gupta",
+    //   image: "/team/manasvi.jpg",
+    //   category: "MN",
+    // },
 
   ];
 
