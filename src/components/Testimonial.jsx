@@ -46,46 +46,47 @@ const Testimonial = () => {
 
   const data = [
     {
-      title: "James Miller",
-      img: 'https://randomuser.me/api/portraits/men/9.jpg',
-      revs: "Usama is amazing at what he does and I highly recommend him!"
+      title: "Kenji Tanaka",
+      img: "https://randomuser.me/api/portraits/men/10.jpg",
+      revs: "Exceptional service! The Web Hub team exceeded my expectations."
     },
     {
-      title: "Emily Smith",
-      img: 'https://randomuser.me/api/portraits/women/12.jpg',
-      revs: "Outstanding job done by Osama. I will definitely rehire him for future projects"
+      title: "Mei Ling",
+      img: "https://randomuser.me/api/portraits/women/15.jpg",
+      revs: "Amazing work! Communication was smooth, and delivery was fast."
     },
     {
-      title: "Michael Johnson",
-      img: "https://randomuser.me/api/portraits/men/2.jpg",
-      revs: "Worked professionally and exceptional services. Thank you!"
+      title: "Hiroshi Sato",
+      img: "https://randomuser.me/api/portraits/men/20.jpg",
+      revs: "Very professional and knowledgeable. I highly recommend Web Hub!"
     },
     {
-      title: "Sophia Taylor",
-      img: 'https://randomuser.me/api/portraits/women/2.jpg',
-      revs: "Usama did a great job he went above and beyond to help me optimize my profile on Upwork!"
+      title: "Aya Nakamura",
+      img: "https://randomuser.me/api/portraits/women/8.jpg",
+      revs: "Web Hub went above and beyond to optimize my website performance!"
     },
     {
-      title: "William Brown",
-      img: "https://randomuser.me/api/portraits/men/3.jpg",
-      revs: "Usama is amazing at what he does and I highly recommend him!"
+      title: "Li Wei",
+      img: "https://randomuser.me/api/portraits/men/12.jpg",
+      revs: "Fast and reliable service. I will definitely work with them again!"
     },
     {
-      title: "Olivia Wilson",
-      img: "https://randomuser.me/api/portraits/women/3.jpg",
-      revs: "Great to work with Usama. Very quick strong communication and gets job done!"
+      title: "Sakura Chen",
+      img: "https://randomuser.me/api/portraits/women/6.jpg",
+      revs: "Great experience working with Web Hub. Highly recommended!"
     },
     {
-      title: "Christopher Davis",
-      img: 'https://randomuser.me/api/portraits/men/4.jpg',
-      revs: "Worked professionally and exceptional services. Thank you!"
+      title: "Takeshi Yamamoto",
+      img: "https://randomuser.me/api/portraits/men/14.jpg",
+      revs: "Top-notch service and attention to detail. Thank you!"
     },
     {
-      title: "Ava Martinez",
-      img: "https://randomuser.me/api/portraits/women/11.jpg",
-      revs: "Usama did a great job he went above and beyond to help me optimize my profile on Upwork!"
+      title: "Yuki Fujimoto",
+      img: "https://randomuser.me/api/portraits/women/10.jpg",
+      revs: "Excellent service! Web Hub truly understands customer needs."
     },
   ];
+  
 
   return (
     <div className="px-4 md:px-8 ">
