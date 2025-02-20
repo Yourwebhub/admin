@@ -68,27 +68,27 @@ const About = () => {
         {/* Main Branch */}
         <div className=" p-3 rounded ">
           <h2 className="text-xl font-semibold">Main Branch</h2>
-          <p>Bakery Place</p>
-          <p>Flour Mill Lane</p>
-          <p>Brighton, East Sussex</p>
-          <p>BN1 1AB</p>
+          <p>SPO 208</p>
+          <p>Second flour</p>
+          <p>Sector 124</p>
+          <p>Sunny Enclave Mohali</p>
         </div>
 
         {/* Location 2 */}
-        <div className=" p-3 rounded ">
+        {/* <div className=" p-3 rounded ">
           <h3 className="text-xl font-semibold">Location 2</h3>
           <p>123 Market Street</p>
           <p>London, Greater London</p>
           <p>EC1 1XY</p>
-        </div>
+        </div> */}
 
         {/* Location 3 */}
-        <div className=" p-3 rounded ">
+        {/* <div className=" p-3 rounded ">
           <h3 className="text-xl font-semibold">Location 3</h3>
           <p>456 Orchard Road</p>
           <p>Manchester, Greater Manchester</p>
           <p>M1 2AB</p>
-        </div>
+        </div> */}
       </div>
  <div className='flex items-center  gap-8 md:flex-row flex-col'>
       <div className="mt-12">
