@@ -42,13 +42,13 @@ const Team = () => {
       image: "/team/abhi.jpg",
       category: "MN",
     },
-    {
-      id: "5",
-      designation: "App Developer",
-      employe: "Deepak Kumaar",
-      image: "/team/deepak.jpg",
-      category: "AP",
-    },
+    // {
+    //   id: "5",
+    //   designation: "App Developer",
+    //   employe: "Deepak Kumaar",
+    //   image: "/team/deepak.jpg",
+    //   category: "AP",
+    // },
     {
       id: "6",
       designation: "Web Developer",
@@ -63,13 +63,13 @@ const Team = () => {
       image: "/team/nikhil.jpg",
       category: "AP",
     },
-    {
-      id: "8",
-      designation: "Web Developer",
-      employe: "Shivam Agarwal",
-      image: "/team/shivam.jpg",
-      category: "WD",
-    },
+    // {
+    //   id: "8",
+    //   designation: "Web Developer",
+    //   employe: "Shivam Agarwal",
+    //   image: "/team/shivam.jpg",
+    //   category: "WD",
+    // },
     {
       id: "9",
       designation: "Web Developer",
