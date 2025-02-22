@@ -42,13 +42,13 @@ const Team = () => {
       image: "/team/abhi.jpg",
       category: "MN",
     },
-    // {
-    //   id: "5",
-    //   designation: "App Developer",
-    //   employe: "Deepak Kumaar",
-    //   image: "/team/deepak.jpg",
-    //   category: "AP",
-    // },
+    {
+      id: "5",
+      designation: "App Developer",
+      employe: "Deepak Kumaar",
+      image: "/team/deepak.jpg",
+      category: "AP",
+    },
     {
       id: "6",
       designation: "Web Developer",
