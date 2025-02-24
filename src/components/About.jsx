@@ -94,8 +94,8 @@ const About = () => {
       <div className="mt-12">
         <h2 className="text-2xl font-bold mb-4">When to Visit</h2>
         <ul className="list-disc pl-6">
-          <li>Monday to Friday: 8 AM - 5 PM</li>
-          <li>Saturday: 9 AM - 5 PM</li>
+          <li>Monday to Friday: 10 AM - 8 PM</li>
+          <li>Saturday: 10 AM - 5 PM</li>
           <li>Sunday: Closed</li>
         </ul>
       </div>
@@ -104,7 +104,7 @@ const About = () => {
         <h2 className="text-2xl font-bold mb-4">How to Get in Touch</h2>
         <p>We respond to every inquiry within 48 hours.</p>
         <p>
-          <strong>Phone:</strong> 01234 567 890
+          <strong>Phone:</strong> +91 7980 110 265
         </p>
         <p>
           <strong>Email:</strong> info@example.com

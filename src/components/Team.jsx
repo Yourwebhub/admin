@@ -21,13 +21,13 @@ const Team = () => {
       image: "/team/roni-bhi.jpg",
       category: "DT",
     },
-    // {
-    //   id: "2",
-    //   designation: "Founder & CEO ",
-    //   employe: "Surendar singh",
-    //   image: "/team/surinder.jpg",
-    //   category: "DT",
-    // },
+    {
+      id: "2",
+      designation: "Founder",
+      employe: "Surendar singh",
+      image: "/team/surinder.jpg",
+      category: "DT",
+    },
     // {
     //   id: "3",
     //   designation: "HR",
@@ -90,6 +90,13 @@ const Team = () => {
       employe: "Jamal Ali",
       image: "/team/jamal.jpg",
       category: "WD",
+    },
+    {
+      id: "12",
+      designation: "Business Accosiate",
+      employe: "Shivam Pandey",
+      image: "/team/shivam-pandey.jpg",
+      category: "MT",
     },
 
   ];

@@ -17,14 +17,14 @@ const Page = () => {
       </motion.h1>
       <div className=" md:p-[26px] hidden md:block">
         <img
-          src="https://jaidooempire.com/_next/image?url=%2Fimages%2Fappdevb.png&w=2048&q=75"
+          src="app.webp"
           className="rounded-xl "
           alt="mobile app development"
         />
       </div>
       <div className=" p-3 block md:hidden">
         <img
-          src="https://jaidooempire.com/_next/image?url=%2Fimages%2Fappdevb.png&w=2048&q=75"
+          src="app.webp"
           className="rounded-xl   border border-red-500 object-cover"
           alt="mobile app development"
         />

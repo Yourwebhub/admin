@@ -18,7 +18,7 @@ const L = typeof window !== 'undefined' ? require('leaflet') : null;
 // Custom icon for markers
 const customIcon = L
   ? L.icon({
-      iconUrl: '/user.webp', // Path to your custom marker image
+      iconUrl: '/logo-web.png', // Path to your custom marker image
       iconSize: [40, 40],
       iconAnchor: [20, 40],
       popupAnchor: [0, -40],
@@ -28,23 +28,23 @@ const customIcon = L
 // Locations in India and Pakistan
 const locations = [
   {
-    name: 'Branch in Delhi, India',
+    name: 'Branch in Chandigarh, India',
     latitude: 28.613939,
     longitude: 77.209023,
-    description: 'This is the branch in Delhi, India.',
+    description: 'This is the branch in Chandigarh, India.',
   },
-  {
-    name: 'Branch in Karachi, Pakistan',
-    latitude: 24.860735,
-    longitude: 67.001137,
-    description: 'This is the branch in Karachi, Pakistan.',
-  },
-  {
-    name: 'Branch in Lahore, Pakistan',
-    latitude: 31.549722,
-    longitude: 74.343611,
-    description: 'This is the branch in Lahore, Pakistan.',
-  },
+  // {
+  //   name: 'Branch in Karachi, Pakistan',
+  //   latitude: 24.860735,
+  //   longitude: 67.001137,
+  //   description: 'This is the branch in Karachi, Pakistan.',
+  // },
+  // {
+  //   name: 'Branch in Lahore, Pakistan',
+  //   latitude: 31.549722,
+  //   longitude: 74.343611,
+  //   description: 'This is the branch in Lahore, Pakistan.',
+  // },
 ];
 
 const BranchMap = () => {

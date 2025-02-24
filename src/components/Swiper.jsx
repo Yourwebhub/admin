@@ -18,19 +18,19 @@ const services = [
     title: "Web Development",
     description: "your Web Hub specializes in creating dynamic, responsive websites that capture your brand’s essence and enhance user engagement. Our expert team ensures each site is optimized for performance, security, and scalability, empowering your business to succeed online",
     image: "https://jaidooempire.com/images/web.png",
-    link:"/service/wordpress"
+    link:"/service/web-development"
   },
   {
     title: "App Development",
     description: "your Web Hub creates custom mobile and web applications that are designed to drive user engagement and business growth. Our expert team builds high-performance, scalable apps with a focus on security and seamless functionality. We deliver innovative solutions that transform your ideas into intuitive, user-friendly apps.",
     image: "https://jaidooempire.com/images/app.png",
-    link:"/service/wordpress"
+    link:"/service/app-development"
   },
   {
     title: "SEO",
     description: "your Web Hub offers expert SEO services to boost your website’s visibility and drive organic traffic. Our strategies focus on improving search rankings and increasing conversions for sustainable business growth.",
     image: "https://jaidooempire.com/images/seo.png",
-    link:"/service/wordpress"
+    link:"/service/seo"
   },
   {
     title: "WordPress",
@@ -42,7 +42,7 @@ const services = [
     title: "Social Media Marketing",
     description: "your Web Hub  provides strategic social media marketing services to enhance your online presence and engage your target audience. Our team creates tailored campaigns across platforms to boost brand awareness, drive traffic, and increase conversions.",
     image: "https://jaidooempire.com/images/smm.png",
-    link:"/service/wordpress"
+    link:"/service/marketing"
   },
 ];
 
@@ -94,13 +94,13 @@ const SwiperComponent = () => {
           <p className="text-sm md:text-xl text-white mb-8 leading-relaxed drop-shadow">
             {service.description}
           </p>
-          <button
+          <Link href={service.link}
             variant="secondary"
             size="lg"
             className="text-  md:text-lg  p-2 rounded-xl shadow-lg hover:shadow-xl transition-shadow bg-bllue text-light"
           >
             More Details
-          </button>
+          </Link>
         </div>
       </div>
               </div>

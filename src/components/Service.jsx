@@ -9,7 +9,7 @@ const services = [
     description:
       "Building Engaging and User-Friendly Websites Tailored to Your Needs",
     number: 1,
-    link:"/service/app-development"
+    link:"/service/web-development"
   },
   {
     title: "App Development",
@@ -22,7 +22,7 @@ const services = [
     title: "SEO",
     description: "Enhancing Your Digital Presence with Strategic SEO Solutions",
     number: 3,
-    link:"/service/app-development"
+    link:"/service/seo"
   },
   {
     title: "Wordpress ",
@@ -36,7 +36,7 @@ const services = [
     description:
       "Expanding Your Reach & Advertisement with Expert Social Media Strategies",
     number: 5,
-    link:"/service/app-development"
+    link:"/service/marketing"
   },
 ];
 
