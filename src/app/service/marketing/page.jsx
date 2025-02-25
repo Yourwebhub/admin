@@ -85,7 +85,54 @@ const Page = () => {
             </ul>
           </section>
 
-          {/* Get Started Section */}
+          {/* Our Process */}
+          <section className="mb-16">
+            <h3 className="text-xl md:text-3xl font-bold text-blue-400 mb-6">
+              Our Process
+            </h3>
+            <p className="text-lg mb-4">
+              Our strategic approach ensures that your digital marketing campaigns deliver measurable success:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>Understanding Your Business Goals</li>
+              <li>Developing a Tailored Marketing Strategy</li>
+              <li>Implementing Data-Driven Campaigns</li>
+              <li>Monitoring and Optimizing for Continuous Growth</li>
+            </ul>
+          </section>
+
+          {/* Client Success Stories */}
+          <section className="mb-16">
+            <h3 className="text-xl md:text-3xl font-bold text-blue-400 mb-6">
+              Client Success Stories
+            </h3>
+            <p className="text-lg mb-4">
+              We have helped numerous businesses achieve remarkable growth. Here are some of our success stories:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>Increased eCommerce sales by 200% for an online store</li>
+              <li>Generated over 50,000 leads for a B2B client</li>
+              <li>Enhanced brand awareness through viral social media campaigns</li>
+            </ul>
+          </section>
+
+          {/* Trends in Digital Marketing */}
+          <section className="mb-16">
+            <h3 className="text-xl md:text-3xl font-bold text-blue-400 mb-6">
+              Latest Trends in Digital Marketing
+            </h3>
+            <p className="text-lg mb-4">
+              Stay ahead of the competition by leveraging emerging trends:
+            </p>
+            <ul className="list-disc pl-6">
+              <li>AI-Powered Marketing Automation</li>
+              <li>Voice Search Optimization</li>
+              <li>Personalization and Hyper-Targeting</li>
+              <li>Interactive and Immersive Content</li>
+            </ul>
+          </section>
+
+          {/* Call to Action */}
           <div className="text-center">
             <Link href="/proposal">
               <motion.button

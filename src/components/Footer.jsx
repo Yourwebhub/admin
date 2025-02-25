@@ -68,11 +68,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                {service:"Web Development",url:"/service/web"},
-                {service:"App Development",url:"/service/web"},
-                {service:"SEO",url:"/service/web"},
-                {service:"Wordpress",url:"/service/web"},
-                {service:"Social Media Marketing",url:"/service/web"},
+                {service:"Web Development",url:"/service/web-development"},
+                {service:"App Development",url:"/service/app-development"},
+                {service:"SEO",url:"/service/seo"},
+                {service:"Wordpress",url:"/service/wordpress"},
+                {service:"Social Media Marketing",url:"/service/marketing"},
               ].map(({service,url}) => (
                 <li key={service}>
                   <Link 

@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 
 const plans = [
@@ -186,6 +187,21 @@ const Plans = () => {
       ))}
       </div>
     </div>
+
+
+              {/* Get Started Section */}
+              <div className="text-center">
+            <Link href="/proposal">
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className="px-8 py-3 bg-blue-400 text-white rounded-lg font-bold hover:bg-blue-500"
+              >
+                Contact us today
+              </motion.button>
+            </Link>
+          </div>
     </>
   );
 };

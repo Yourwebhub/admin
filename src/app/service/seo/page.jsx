@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import PricingSection from "@/components/SEO";
 
 const Page = () => {
   return (
@@ -86,6 +87,10 @@ const Page = () => {
             </ul>
           </section>
 
+          <div>
+            <PricingSection/>
+          </div>
+
           {/* Get Started Section */}
           <div className="text-center">
             <Link href="/proposal">
@@ -99,6 +104,8 @@ const Page = () => {
               </motion.button>
             </Link>
           </div>
+
+
         </div>
       </div>
     </div>

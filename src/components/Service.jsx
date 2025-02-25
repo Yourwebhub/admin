@@ -73,12 +73,12 @@ const Service = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: i * 0.2, duration: 0.8 }}
       viewport={{ once: true }}
-      className="relative overflow-hidden border border-dark dark:border-light bg-light/5 dark:bg-dark/5 backdrop-blur-sm transition-all hover:shadow-lg hover:shadow-bllue/20 rounded-2xl hover:-translate-y-1 p-6"
+      className="relative overflow-hidden border border-dark dark:border-light bg-light/5 dark:bg-dark/5 backdrop-blur-sm transition-all hover:shadow-lg hover:shadow-bllue/20 rounded-2xl hover:-translate-y-1 p-6 group cursor-pointer"
     >
       {/* Number Watermark */}
-      <span className="absolute right-4 bottom-4 text-5xl font-bold opacity-10 text-bllue dark:text-bllue-400">
+      <div className="absolute  group-hover:opacity-70 dark:group-hover:opacity-40 right-4 bottom-4 text-5xl font-bold dark:opacity-10 opacity-30 text-bllue   ">
         {v.number}
-      </span>
+      </div>
 
       <div className="space-y-3">
         <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-light">
