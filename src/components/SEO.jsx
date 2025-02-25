@@ -196,7 +196,7 @@ const PricingSection = () => {
     </label>
     <select
       id="package-select"
-      className="p-2 focus:outline-none rounded-md"
+      className="p-2 focus:outline-none rounded-md text-bllue"
       value={selectedPackageIndex}
       onChange={handlePackageChange}
     >
