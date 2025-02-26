@@ -98,6 +98,13 @@ const Team = () => {
       image: "/team/shivam-pandey.jpg",
       category: "MT",
     },
+    {
+      id: "13",
+      designation: "Business Accosiate",
+      employe: "Amir Khan",
+      image: "/team/amir.jpg",
+      category: "MT",
+    },
 
   ];
 

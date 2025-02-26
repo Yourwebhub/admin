@@ -40,7 +40,7 @@ export default function Footer() {
               </Link>
               <Link 
               target="_blank" 
-                href="#" 
+                href="https://www.instagram.com/your_webhub/?igsh=MXJwdHc5Nms2bDkzNQ%3D%3D#" 
                 className="bg-gradient-to-r from-pink-500 to-purple-500 p-2 rounded-full hover:opacity-90 transition-opacity"
               >
                 <Instagram className="w-5 h-5 text-light" />
@@ -134,7 +134,6 @@ export default function Footer() {
     </li>
   ))}
 </ul>
-
           </div>
         </div>
 
