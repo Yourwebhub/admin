@@ -18,33 +18,21 @@ const L = typeof window !== 'undefined' ? require('leaflet') : null;
 // Custom icon for markers
 const customIcon = L
   ? L.icon({
-      iconUrl: '/logo-web.png', // Path to your custom marker image
+      iconUrl: '/map-logo.png', // Path to your custom marker image
       iconSize: [40, 40],
       iconAnchor: [20, 40],
       popupAnchor: [0, -40],
     })
   : null;
 
-// Locations in India and Pakistan
+// Locations
 const locations = [
   {
-    name: 'Branch in Chandigarh, India',
-    latitude: 28.613939,
-    longitude: 77.209023,
-    description: 'This is the branch in Chandigarh, India.',
+    name: 'Your Web Hub',
+    latitude: 30.76258758144338,
+    longitude: 76.6602360055528,
+    description: 'SCO 208, Sector 124, Sunny Enclave, Sahibzada Ajit Singh Nagar, Kharar, Punjab 140301, India',
   },
-  // {
-  //   name: 'Branch in Karachi, Pakistan',
-  //   latitude: 24.860735,
-  //   longitude: 67.001137,
-  //   description: 'This is the branch in Karachi, Pakistan.',
-  // },
-  // {
-  //   name: 'Branch in Lahore, Pakistan',
-  //   latitude: 31.549722,
-  //   longitude: 74.343611,
-  //   description: 'This is the branch in Lahore, Pakistan.',
-  // },
 ];
 
 const BranchMap = () => {
@@ -52,7 +40,7 @@ const BranchMap = () => {
 
   return (
     <div className="z-0 h-[200px] md:h-[500px] w-[290px] md:w-[500px] overflow-hidden">
-      <MapContainer center={[27.0, 77.0]} zoom={5} className="h-full w-full">
+      <MapContainer center={[30.76258758144338, 76.6602360055528]} zoom={15} className="h-full w-full">
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
