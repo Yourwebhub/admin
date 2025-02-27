@@ -101,7 +101,7 @@ const router = useRouter()
               name="firstName"
               value={formData.firstName}
               onChange={(e) => handleChange("firstName", e.target.value)}
-              className="w-full px-4 py-3 bg-transparent border border-gray-800 rounded-lg"
+              className="w-full px-4 py-3 bg-transparent border dark:border-light border-gray-800 rounded-lg"
               placeholder="Enter your first name"
               required
             />
@@ -113,7 +113,7 @@ const router = useRouter()
               name="lastName"
               value={formData.lastName}
               onChange={(e) => handleChange("lastName", e.target.value)}
-              className="w-full px-4 py-3 bg-transparent border border-gray-800 rounded-lg"
+              className="w-full px-4 py-3 bg-transparent border dark:border-light border-gray-800 rounded-lg"
               placeholder="Enter your last name"
               required
             />
@@ -128,7 +128,7 @@ const router = useRouter()
               name="email"
               value={formData.email}
               onChange={(e) => handleChange("email", e.target.value)}
-              className="w-full px-4 py-3 bg-transparent border border-gray-800 rounded-lg"
+              className="w-full px-4 py-3 bg-transparent border dark:border-light border-gray-800 rounded-lg"
               placeholder="Enter your email"
               required
             />
@@ -140,7 +140,7 @@ const router = useRouter()
               name="phone"
               value={formData.phone}
               onChange={(e) => handleChange("phone", e.target.value)}
-              className="w-full px-4 py-3 bg-transparent border border-gray-800 rounded-lg"
+              className="w-full px-4 py-3 bg-transparent border dark:border-light border-gray-800 rounded-lg"
               placeholder="Enter your phone number"
               required
             />
@@ -187,7 +187,7 @@ const router = useRouter()
               name="projectLength"
               value={formData.projectLength}
               onChange={(e) => handleChange("projectLength", e.target.value)}
-              className="w-full px-4 py-3 bg-transparent border border-gray-800 rounded-lg"
+              className="w-full px-4 py-3 bg-transparent border dark:border-light border-gray-800 rounded-lg"
               placeholder="Enter project length"
               required
               min="1"
@@ -201,7 +201,7 @@ const router = useRouter()
                 name="budget"
                 value={formData.budget}
                 onChange={(e) => handleChange("budget", e.target.value)}
-                className=" px-4 py-3 bg-transparent text-bllue border border-gray-800 rounded-lg"
+                className=" px-4 py-3 bg-transparent text-bllue dark:border-light border border-gray-800 rounded-lg"
                 placeholder="Enter budget"
                 required
               />

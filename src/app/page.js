@@ -1,3 +1,4 @@
+import BlogSection from '@/components/Blog'
 import Choose from '@/components/Choose'
 import FAQ from '@/components/Faq'
 import Header from '@/components/Header'
@@ -18,6 +19,7 @@ const Page = () => {
       <Header/>
       <Mission/>
       <Service/>
+      <BlogSection/>
       <Choose/>
       <FAQ/>
     </>

@@ -99,6 +99,7 @@ export default function Footer() {
                 "service",
                 "projects",
                 "proposal",
+                "blog",
               ].map((page) => (
                 <li key={page}>
                   <Link 
