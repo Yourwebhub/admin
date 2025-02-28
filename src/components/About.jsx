@@ -112,7 +112,9 @@ const About = () => {
       </div>
  </div>
     </div>
+    <div className='md:w-[600px]'>
     <BranchMap/>
+    </div>
  </div>
     </div>
   </div>
