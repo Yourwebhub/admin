@@ -107,7 +107,7 @@ const About = () => {
           <strong>Phone:</strong> +91 7980 110 265
         </p>
         <p>
-          <strong>Email:</strong> info@example.com
+          <strong>Email:</strong> mitraroni15@gmail.com
         </p>
       </div>
  </div>
