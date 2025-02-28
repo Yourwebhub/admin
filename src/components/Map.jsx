@@ -1,6 +1,6 @@
 'use client';
 
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import React from 'react';
 
 const mapContainerStyle = {
@@ -23,15 +23,28 @@ const locations = [
 ];
 
 const BranchMap = () => {
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: 'AIzaSyARfVtoh-XSwKvead6E7XgZ_MpKe-iFzPU',
+  });
+
+  if (!isLoaded) {
+    return (
+      <div className="w-full h-[500px] bg-gray-200 animate-pulse flex items-center justify-center">
+        <p className="text-gray-500">Loading map...</p>
+      </div>
+    );
+  }
+
   return (
-    <LoadScript googleMapsApiKey="AIzaSyARfVtoh-XSwKvead6E7XgZ_MpKe-iFzPU">
-      <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={15}>
-        {locations.map((location, index) => (
-          <Marker key={index} position={{ lat: location.lat, lng: location.lng }} title={location.name} />
-        ))}
-      </GoogleMap>
-    </LoadScript>
+    <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={15}>
+      {locations.map((location, index) => (
+        <Marker key={index} position={{ lat: location.lat, lng: location.lng }} title={location.name} />
+      ))}
+    </GoogleMap>
   );
 };
 
 export default BranchMap;
+
+
+        // <LoadScript googleMapsApiKey="AIzaSyARfVtoh-XSwKvead6E7XgZ_MpKe-iFzPU">
