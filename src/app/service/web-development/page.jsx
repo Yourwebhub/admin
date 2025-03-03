@@ -4,6 +4,28 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Page = () => {
+  const pricingData = [
+    {
+      title: "Basic Website",
+      description: "Perfect for personal blogs and portfolio websites.",
+      priceRange: "₹10,000 - ₹25,000",
+    },
+    {
+      title: "Small Business Website",
+      description: "An engaging and scalable website tailored for growing businesses.",
+      priceRange: "₹25,000 - ₹1,25,000",
+    },
+    {
+      title: "E-commerce Website",
+      description: "A feature-rich online store with seamless checkout and secure payments.",
+      priceRange: "₹40,000 - ₹2,50,000",
+    },
+    {
+      title: "Custom Website",
+      description: "A fully personalized and innovative web experience designed from scratch.",
+      priceRange: "₹1,75,000 - ₹5,50,000",
+    },
+  ];
   return (
     <div>
       <motion.h1
@@ -83,6 +105,23 @@ const Page = () => {
               <li>Improved Performance and Scalability</li>
               <li>Strong Community Support</li>
             </ul>
+          </section>
+          <section>
+          <div className="container mx-auto px-4 py-10">
+          <h2 className="text-3xl font-bold text-center mb-8">
+    Our <span className="text-blue-500">Website  Packages</span>
+  </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {pricingData.map((item, index) => (
+          <div key={index} className="p-6 shadow-lg rounded-2xl border border-gray-200 ">
+            <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+            <p className="text-gray-600 mb-4">{item.description}</p>
+            <span className="text-lg font-bold text-blue-600">{item.priceRange}</span>
+          </div>
+        ))}
+      </div>
+    </div>
           </section>
 
           {/* Get Started Section */}

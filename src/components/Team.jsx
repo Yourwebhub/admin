@@ -98,13 +98,27 @@ const Team = () => {
       image: "/team/shivam-pandey.jpg",
       category: "MT",
     },
-    // {
-    //   id: "13",
-    //   designation: "Business Accosiate",
-    //   employe: "Amir Khan",
-    //   image: "/team/amir.jpg",
-    //   category: "MT",
-    // },
+    {
+      id: "13",
+      designation: "Business Accosiate",
+      employe: "Tanvi",
+      image: "/team/tanvi.jpg",
+      category: "MT",
+    },
+    {
+      id: "14",
+      designation: "Front-End Developer",
+      employe: "Abhishek Thakur",
+      image: "/team/abhishek.jpg",
+      category: "WD",
+    },
+    {
+      id: "15",
+      designation: "Business Accosiate",
+      employe: "Neha Tanwar",
+      image: "/team/neha.jpg",
+      category: "MT",
+    },
 
   ];
 

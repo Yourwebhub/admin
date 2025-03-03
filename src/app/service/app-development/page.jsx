@@ -4,6 +4,69 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Page = () => {
+  const pricingData = [
+    {
+      title: "Healthcare Apps",
+      description: "Feature-rich healthcare solutions for patient management and telemedicine.",
+      priceRange: "₹15,000 - ₹40,000",
+    },
+    {
+      title: "Finance Apps",
+      description: "Secure and efficient financial applications with seamless transactions.",
+      priceRange: "₹20,000 - ₹30,000",
+    },
+    {
+      title: "Food Apps",
+      description: "On-demand food delivery and restaurant management solutions.",
+      priceRange: "₹25,000 - ₹65,000",
+    },
+    {
+      title: "Education Apps",
+      description: "E-learning platforms with interactive and engaging features.",
+      priceRange: "₹35,000 - ₹40,000",
+    },
+    {
+      title: "Entertainment Apps",
+      description: "Streaming and interactive content apps for endless entertainment.",
+      priceRange: "₹15,000 - ₹80,000",
+    },
+    {
+      title: "E-Commerce Apps",
+      description: "Robust online shopping solutions with secure payment integration.",
+      priceRange: "₹45,000 - ₹1,55,000",
+    },
+    {
+      title: "Travel Apps",
+      description: "Comprehensive travel booking and itinerary management applications.",
+      priceRange: "₹15,000 - ₹50,000",
+    },
+    {
+      title: "Booking Apps",
+      description: "Easy-to-use booking applications for various industries.",
+      priceRange: "₹15,000 - ₹80,000",
+    },
+    {
+      title: "Social Media Apps",
+      description: "Engaging platforms for networking, sharing, and communication.",
+      priceRange: "₹50,000 - ₹65,000",
+    },
+    {
+      title: "Mobile Game Apps",
+      description: "Exciting gaming applications with interactive features and multiplayer support.",
+      priceRange: "₹20,000 - ₹65,000",
+    },
+    {
+      title: "Real Estate Apps",
+      description: "Smart property listing and management solutions.",
+      priceRange: "₹35,000 - ₹65,000",
+    },
+    {
+      title: "Sports & Fitness Apps",
+      description: "Health tracking, workout planning, and sports management solutions.",
+      priceRange: "₹35,000 - ₹65,000",
+    },
+  ];
+
   return (
     <div>
       <motion.h1
@@ -293,7 +356,23 @@ const Page = () => {
               </div>
             </div>
           </section>
-
+{/* Pricing  */}
+<section>
+<div className="container mx-auto px-4 py-10">
+<h2 className="text-3xl font-bold text-center mb-8">
+    Our <span className="text-blue-500">App development Packages</span>
+  </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {pricingData.map((item, index) => (
+          <div key={index} className="p-8 shadow-xl rounded-2xl border border-gray-300  transform hover:scale-105 transition duration-300">
+            <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
+            <p className="text-gray-700 mb-4">{item.description}</p>
+            <span className="text-xl font-bold  text-blue-700">{item.priceRange}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+</section>
           {/* Call to Action */}
           <section className="text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-blue-400 mb-6">
