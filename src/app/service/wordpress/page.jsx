@@ -163,7 +163,7 @@ const Plans = () => {
       </p>
     </section>
     <div className=" mx-auto p-6">
-      <h2 className="md:text-3xl text- text-dark dark:text-light font-bold text-center mb-6"> <span className="text-bllue">E-commerce</span> WordPress Website Plans</h2>
+      <h2 className="md:text-3xl text- text-dark dark:text-light font-bold text-center mb-6"> <span className="text-bllue">WordPress</span>  Website Plans</h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-9">
       {plans.map((plan, index) => (
         <div key={index} className="mb-6 p-4 border rounded-lg shadow-md text-dark dark:text-light bg-bllue/20 hover:bg-bllue/40">
