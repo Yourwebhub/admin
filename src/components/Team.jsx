@@ -42,7 +42,7 @@ const Team = () => {
     //   image: "/team/abhi.jpg",
     //   category: "MN",
     // },
-    
+
     // {
     //   id: "5",
     //   designation: "App Developer",
@@ -50,13 +50,13 @@ const Team = () => {
     //   image: "/team/deepak.jpg",
     //   category: "AP",
     // },
-    // {
-    //   id: "6",
-    //   designation: "Web Developer",
-    //   employe: "Mudassar Ali",
-    //   image: "/team/mudassar.jpg",
-    //   category: "WD",
-    // },
+    {
+      id: "6",
+      designation: "MERN Stack Developer",
+      employe: "Jaskaran Rattu",
+      image: "/team/jaskaranprofile.png",
+      category: "WD",
+    },
     // {
     //   id: "7",
     //   designation: "AI + Python Developer",
