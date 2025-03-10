@@ -42,6 +42,7 @@ const Team = () => {
     //   image: "/team/abhi.jpg",
     //   category: "MN",
     // },
+    
     // {
     //   id: "5",
     //   designation: "App Developer",
