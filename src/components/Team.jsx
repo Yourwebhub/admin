@@ -35,13 +35,13 @@ const Team = () => {
     //   image: "/team/Anushka.jpg",
     //   category: "DT",
     // },
-    {
-      id: "4",
-      designation: "Senior Manager",
-      employe: "Abhishek Kumar",
-      image: "/team/abhi.jpg",
-      category: "MN",
-    },
+    // {
+    //   id: "4",
+    //   designation: "Senior Manager",
+    //   employe: "Abhishek Kumar",
+    //   image: "/team/abhi.jpg",
+    //   category: "MN",
+    // },
     {
       id: "5",
       designation: "App Developer",
@@ -49,13 +49,13 @@ const Team = () => {
       image: "/team/deepak.jpg",
       category: "AP",
     },
-    {
-      id: "6",
-      designation: "Web Developer",
-      employe: "Mudassar Ali",
-      image: "/team/mudassar.jpg",
-      category: "WD",
-    },
+    // {
+    //   id: "6",
+    //   designation: "Web Developer",
+    //   employe: "Mudassar Ali",
+    //   image: "/team/mudassar.jpg",
+    //   category: "WD",
+    // },
     {
       id: "7",
       designation: "AI + Python Developer",
@@ -70,13 +70,13 @@ const Team = () => {
     //   image: "/team/shivam.jpg",
     //   category: "WD",
     // },
-    {
-      id: "9",
-      designation: "Web Developer",
-      employe: "Mubisher Ali",
-      image: "/team/mubashir.png",
-      category: "WD",
-    },
+    // {
+    //   id: "9",
+    //   designation: "Web Developer",
+    //   employe: "Mubisher Ali",
+    //   image: "/team/mubashir.png",
+    //   category: "WD",
+    // },
     {
       id: "10",
       designation: "App Developer",
@@ -84,13 +84,13 @@ const Team = () => {
       image: "/team/suffian.jpg",
       category: "AP",
     },
-    {
-      id: "11",
-      designation: "Web Developer",
-      employe: "Jamal Ali",
-      image: "/team/jamal.jpg",
-      category: "WD",
-    },
+      // {
+      //   id: "11",
+      //   designation: "Web Developer",
+      //   employe: "Jamal Ali",
+      //   image: "/team/jamal.jpg",
+      //   category: "WD",
+      // },
     {
       id: "12",
       designation: "Business Accosiate",
