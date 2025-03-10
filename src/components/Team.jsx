@@ -42,13 +42,13 @@ const Team = () => {
     //   image: "/team/abhi.jpg",
     //   category: "MN",
     // },
-    {
-      id: "5",
-      designation: "App Developer",
-      employe: "Deepak Kumaar",
-      image: "/team/deepak.jpg",
-      category: "AP",
-    },
+    // {
+    //   id: "5",
+    //   designation: "App Developer",
+    //   employe: "Deepak Kumaar",
+    //   image: "/team/deepak.jpg",
+    //   category: "AP",
+    // },
     // {
     //   id: "6",
     //   designation: "Web Developer",
@@ -56,13 +56,13 @@ const Team = () => {
     //   image: "/team/mudassar.jpg",
     //   category: "WD",
     // },
-    {
-      id: "7",
-      designation: "AI + Python Developer",
-      employe: "Nikhil Modanwal",
-      image: "/team/nikhil.jpg",
-      category: "AP",
-    },
+    // {
+    //   id: "7",
+    //   designation: "AI + Python Developer",
+    //   employe: "Nikhil Modanwal",
+    //   image: "/team/nikhil.jpg",
+    //   category: "AP",
+    // },
     // {
     //   id: "8",
     //   designation: "Web Developer",
@@ -77,13 +77,13 @@ const Team = () => {
     //   image: "/team/mubashir.png",
     //   category: "WD",
     // },
-    {
-      id: "10",
-      designation: "App Developer",
-      employe: "Muhammad Suffian",
-      image: "/team/suffian.jpg",
-      category: "AP",
-    },
+    // {
+    //   id: "10",
+    //   designation: "App Developer",
+    //   employe: "Muhammad Suffian",
+    //   image: "/team/suffian.jpg",
+    //   category: "AP",
+    // },
       // {
       //   id: "11",
       //   designation: "Web Developer",
