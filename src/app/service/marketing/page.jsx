@@ -16,13 +16,13 @@ const Page = () => {
     },
     {
       imageSrc: "https://www.rankontechnologies.com/wp-content/uploads/2022/06/Twitter-Marketing-1.jpg", 
-      title: "Instagram Marketing",
+      title: "Twitter Marketing",
       description:
         "Boost your brand presence with visually engaging content and reach new audiences through Instagram's growing platform.",
     },
     {
       imageSrc: "https://www.rankontechnologies.com/wp-content/uploads/2022/06/Instagram-Marketing-1.jpg",
-      title: "Twitter Marketing",
+      title: "Instagram Marketing",
       description:
         "Engage in real-time conversations and build your brand voice through effective Twitter marketing strategies.",
     },
