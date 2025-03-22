@@ -42,7 +42,6 @@ const Team = () => {
     //   image: "/team/abhi.jpg",
     //   category: "MN",
     // },
-
     // {
     //   id: "5",
     //   designation: "App Developer",
@@ -52,7 +51,7 @@ const Team = () => {
     // },
     {
       id: "6",
-      designation: "MERN Stack Developer",
+      designation: "Full Stack Developer",
       employe: "Jaskaran Rattu",
       image: "/team/jaskaranprofile.png",
       category: "WD",
@@ -85,13 +84,13 @@ const Team = () => {
     //   image: "/team/suffian.jpg",
     //   category: "AP",
     // },
-      // {
-      //   id: "11",
-      //   designation: "Web Developer",
-      //   employe: "Jamal Ali",
-      //   image: "/team/jamal.jpg",
-      //   category: "WD",
-      // },
+    // {
+    //   id: "11",
+    //   designation: "Web Developer",
+    //   employe: "Jamal Ali",
+    //   image: "/team/jamal.jpg",
+    //   category: "WD",
+    // },
     {
       id: "12",
       designation: "Business Accosiate",
@@ -202,7 +201,7 @@ const Team = () => {
         </div>
 
         <div className="pt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-10  transition-all py-5">
-          {filteredCards.map((v,i) => (
+          {filteredCards.map((v, i) => (
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
