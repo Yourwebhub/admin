@@ -44,6 +44,13 @@ const projects = [
     link: "",
   },
   {
+    type: "PHP",
+    title: "StudentDoctorNet",
+    img: "/projects/23.png",
+    summary: "",
+    link: "https://www.studentdoctor.net/",
+  },
+  {
     type: "Wordpress",
     title: "Ezovion Project",
     img: "/projects/19.png",
@@ -231,6 +238,7 @@ const Projects = ({ searchParams = {} }) => {
           <option value="All">All</option>
           <option value="Wordpress">Wordpress</option>
           <option value="React">React</option>
+          <option value="PHP">PHP</option>
         </select>
       </div>
 
