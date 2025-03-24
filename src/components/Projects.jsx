@@ -23,11 +23,18 @@ const projects = [
     link: "https://healthray.com/",
   },
   {
-    type: "MERN",
+    type: "React",
     title: "BondExch",
     img: "/projects/20.png",
     summary: "A Cricket Betting Web Application.",
     link: "https://www.bondexch.buzz/home",
+  },
+  {
+    type: "React",
+    title: "TestBook",
+    img: "/projects/21.png",
+    summary: "",
+    link: "",
   },
   {
     type: "Wordpress",
@@ -148,7 +155,7 @@ const projects = [
     summary: "An industrial chemical supplier website offering a vast range of chemical solutions.",
     link: "https://alishaimpex.pk/",
   },
- 
+
 ];
 
 const ITEMS_PER_PAGE = 12;
