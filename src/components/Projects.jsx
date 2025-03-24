@@ -37,6 +37,13 @@ const projects = [
     link: "",
   },
   {
+    type: "React",
+    title: "MegaMatches",
+    img: "/projects/22.png",
+    summary: "",
+    link: "",
+  },
+  {
     type: "Wordpress",
     title: "Ezovion Project",
     img: "/projects/19.png",
