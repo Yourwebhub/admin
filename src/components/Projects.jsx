@@ -32,14 +32,14 @@ const projects = [
   {
     type: "React",
     title: "TestBook",
-    img: "/projects/21.png",
+    img: "/projects/21.jpg",
     summary: "",
     link: "",
   },
   {
     type: "React",
     title: "MegaMatches",
-    img: "/projects/22.png",
+    img: "/projects/22.jpg",
     summary: "",
     link: "",
   },
