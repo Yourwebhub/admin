@@ -40,14 +40,14 @@ const projects = [
     type: "React",
     title: "MegaMatches",
     img: "/projects/22.jpg",
-    summary: "",
+    summary: "A Sports Betting Web Application.",
     link: "",
   },
   {
     type: "PHP",
     title: "StudentDoctorNet",
     img: "/projects/23.png",
-    summary: "",
+    summary: "Student Doctor Network is helping build a diverse doctor workforce by providing a wide range of free resources to help students in their educational journey.",
     link: "https://www.studentdoctor.net/",
   },
   {
