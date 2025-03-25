@@ -33,7 +33,7 @@ const projects = [
     type: "React",
     title: "TestBook",
     img: "/projects/21.jpg",
-    summary: "",
+    summary: "Boost your exam preparation with Test Series for Banking, SSC, RRB & All other Govt. Exams",
     link: "",
   },
   {
@@ -42,6 +42,34 @@ const projects = [
     img: "/projects/22.jpg",
     summary: "A Sports Betting Web Application.",
     link: "",
+  },
+  {
+    type: "React",
+    title: "Raja Bets",
+    img: "/projects/24.png",
+    summary: "Welcome to Rajabets.com, where you can explore the whole new world of online gambling for real money.",
+    link: "https://rajabets1.com/en",
+  },
+  {
+    type: "PHP",
+    title: "Mr & Mrs Smith",
+    img: "/projects/25.png",
+    summary: "The travel club for Hotel Lovers.",
+    link: "https://www.mrandmrssmith.com/",
+  },
+  {
+    type: "PHP",
+    title: "Gala Caters",
+    img: "/projects/26.png",
+    summary: "Looking for a perfect food affair to complement your special occasion?",
+    link: "https://www.galacaterers.in/",
+  },
+  {
+    type: "PHP",
+    title: "The Catering Co.",
+    img: "/projects/27.png",
+    summary: "Extraordinary culinary experience, an unforgettable celebration",
+    link: "https://thecateringco.in/",
   },
   {
     type: "PHP",
