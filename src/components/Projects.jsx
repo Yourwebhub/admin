@@ -44,6 +44,13 @@ const projects = [
     link: "",
   },
   {
+    type: "PHP",
+    title: "SSSAcademy",
+    img: "/projects/28.png",
+    summary: "We're committed to providing an enriching learning environment where students flourish academically and personally.",
+    link: "https://ssshergillacademy.org/",
+  },
+  {
     type: "React",
     title: "Raja Bets",
     img: "/projects/24.png",
