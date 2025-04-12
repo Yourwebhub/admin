@@ -49,13 +49,6 @@ const Team = () => {
     //   image: "/team/deepak.jpg",
     //   category: "AP",
     // },
-    {
-      id: "6",
-      designation: "Full Stack Developer",
-      employe: "Jaskaran Rattu",
-      image: "/team/jaskaranprofile.png",
-      category: "WD",
-    },
     // {
     //   id: "7",
     //   designation: "AI + Python Developer",
