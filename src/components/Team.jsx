@@ -86,7 +86,7 @@ const Team = () => {
     // },
     {
       id: "12",
-      designation: "Business Accosiate",
+      designation: "Business Assosiate",
       employe: "Shivam Pandey",
       image: "/team/shivam-pandey.jpg",
       category: "MT",
