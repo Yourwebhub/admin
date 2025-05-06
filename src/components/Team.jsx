@@ -21,13 +21,13 @@ const Team = () => {
       image: "/team/roni-bhi.jpg",
       category: "DT",
     },
-    {
-      id: "2",
-      designation: "Founder",
-      employe: "Surendar singh",
-      image: "/team/surinder.jpg",
-      category: "DT",
-    },
+    // {
+    //   id: "2",
+    //   designation: "Founder",
+    //   employe: "Surendar singh",
+    //   image: "/team/surinder.jpg",
+    //   category: "DT",
+    // },
     // {
     //   id: "3",
     //   designation: "HR",
@@ -86,7 +86,7 @@ const Team = () => {
     // },
     {
       id: "12",
-      designation: "Business Accosiate",
+      designation: "Business Assosiate",
       employe: "Shivam Pandey",
       image: "/team/shivam-pandey.jpg",
       category: "MT",
