@@ -8,13 +8,13 @@ import Image from "next/image";
 const FramerImage = motion(Image);
 
 const projects = [
-  {
-    type: "Wordpress",
-    title: "Realestate Project",
-    img: "/projects/1.png",
-    summary: "A modern real estate platform showcasing properties with seamless navigation and responsive design.",
-    link: "https://actindustrial.co.uk/",
-  },
+  // {
+  //   type: "Wordpress",
+  //   title: "Realestate Project",
+  //   img: "/projects/1.png",
+  //   summary: "A modern real estate platform showcasing properties with seamless navigation and responsive design.",
+  //   link: "https://actindustrial.co.uk/",
+  // },
   {
     type: "Wordpress",
     title: "Healthray Project",
