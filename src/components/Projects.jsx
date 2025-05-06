@@ -43,6 +43,7 @@ const projects = [
     summary: "A Sports Betting Web Application.",
     link: "",
   },
+  
   {
     type: "React",
     title: "Raja Bets",
