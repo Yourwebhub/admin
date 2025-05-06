@@ -201,6 +201,7 @@ const projects = [
 
 ];
 
+
 const ITEMS_PER_PAGE = 12;
 
 const Projects = ({ searchParams = {} }) => {
